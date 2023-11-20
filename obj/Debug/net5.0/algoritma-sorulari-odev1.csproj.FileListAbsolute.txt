@@ -1,0 +1,15 @@
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\bin\Debug\net5.0\algoritma-sorulari-odev1.exe
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\bin\Debug\net5.0\algoritma-sorulari-odev1.deps.json
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\bin\Debug\net5.0\algoritma-sorulari-odev1.runtimeconfig.json
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\bin\Debug\net5.0\algoritma-sorulari-odev1.runtimeconfig.dev.json
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\bin\Debug\net5.0\algoritma-sorulari-odev1.dll
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\bin\Debug\net5.0\algoritma-sorulari-odev1.pdb
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\obj\Debug\net5.0\algoritma-sorulari-odev1.GeneratedMSBuildEditorConfig.editorconfig
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\obj\Debug\net5.0\algoritma-sorulari-odev1.AssemblyInfoInputs.cache
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\obj\Debug\net5.0\algoritma-sorulari-odev1.AssemblyInfo.cs
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\obj\Debug\net5.0\algoritma-sorulari-odev1.csproj.CoreCompileInputs.cache
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\obj\Debug\net5.0\algoritma-sorulari-odev1.dll
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\obj\Debug\net5.0\refint\algoritma-sorulari-odev1.dll
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\obj\Debug\net5.0\algoritma-sorulari-odev1.pdb
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\obj\Debug\net5.0\algoritma-sorulari-odev1.genruntimeconfig.cache
+D:\PatikaDev\Patika_Pratikler\algoritma-sorulari-odev1\obj\Debug\net5.0\ref\algoritma-sorulari-odev1.dll
