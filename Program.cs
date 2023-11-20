@@ -11,11 +11,11 @@ namespace algoritma_sorulari_odev1
 
             islemler.EvenNumbers();
 
-            islemler.NumberMode();
+            // islemler.NumberMode();
 
-            islemler.WordReverse();
+            // islemler.WordReverse();
 
-            islemler.WordAndCharacter();
+            // islemler.WordAndCharacter();
 
         }
     }
@@ -24,13 +24,14 @@ namespace algoritma_sorulari_odev1
         public void EvenNumbers()
         {
             Console.Write("Lütfen sayı adedini giriniz: ");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine()).CheckOrConvertToPoitive();
             int[] dizi = new int[n];
 
             // dizi = Console.ReadLine().TrimEnd().Split(" ").ToArray().Select(temp => Convert.ToInt32(temp)).ToArray();
             for (int i = 0; i < n; i++)
             {
-                dizi[i] = int.Parse(Console.ReadLine());
+                Console.Write("{0}. sayıyı giriniz: ", i+1);
+                dizi[i] = int.Parse(Console.ReadLine()).CheckOrConvertToPoitive();
             }
 
             foreach (var sayi in dizi)
@@ -43,16 +44,17 @@ namespace algoritma_sorulari_odev1
         public void NumberMode()
         {
             Console.Write("Lütfen sayı adedini giriniz: ");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine()).CheckOrConvertToPoitive();
 
             Console.Write("Lütfen kontrol edilecek değeri giriniz: ");
-            int m = int.Parse(Console.ReadLine());
+            int m = int.Parse(Console.ReadLine()).CheckOrConvertToPoitive();
 
             int[] dizi = new int[n];
 
             for (int i = 0; i < n; i++)
             {
-                dizi[i] = int.Parse(Console.ReadLine());
+                Console.Write("{0}. sayıyı giriniz: ", i+1);
+                dizi[i] = int.Parse(Console.ReadLine()).CheckOrConvertToPoitive();
             }
 
             foreach (var sayi in dizi)
@@ -65,11 +67,12 @@ namespace algoritma_sorulari_odev1
         public void WordReverse()
         {
             Console.Write("Lütfen kelime adedini giriniz: ");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine()).CheckOrConvertToPoitive();
             string[] dizi = new string[n];
 
             for (int i = 0; i < n; i++)
             {
+                Console.Write("{0}. kelimeyi giriniz: ", i+1);
                 dizi[i] = Console.ReadLine();
             }
 
@@ -105,6 +108,24 @@ namespace algoritma_sorulari_odev1
 
         }
 
+    }
 
+    public static class CustomExtension
+    {
+        public static int CheckOrConvertToPoitive(this int param)
+        {
+            while(true)
+            {
+                if(param > 0)
+                    break;
+                else
+                {
+                    Console.WriteLine("Sayı negatif !!!");
+                    Console.Write("Lütfen pozitif bir sayı girin: ");
+                    param = int.Parse(Console.ReadLine());
+                }
+            }
+            return param;
+        }
     }
 }
